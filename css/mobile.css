@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+
+.products{
+  display: inherit;
+  height: auto;
+}
+.product{
+  margin-top: auto;
+}
+.main_section{
+  padding: 4%;
+}
+.second_section{
+  display: inherit;
+}
+.fotos_menciones{
+  display: inherit;
+  height: auto;
+}
+.content_mention{
+  width: 238px;
+
+  }
+.cuadro .img_rostro,h2,p{
+  height: auto;
+  width: auto;
+  }
+.cuadro{
+  padding-left: 36px;
+  flex-wrap: wrap;
+}
+.col-4{
+  width: 300px;
+}
+.img_ben2, .img_ben3{
+  height: 40%;
+  width: 30%;
+}
+}

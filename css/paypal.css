@@ -1,0 +1,18 @@
+body{
+  background-color: black;
+  text-align: center;
+  height: 100vh;
+  /* Sirve para dar ON a los elementos y mover */
+  display: flex;
+  /* Sirve para situar en el medio a los elementos, parecido al text aling */
+  justify-content: center;
+  /* situa en el medio por los 4 lados de un div, body, etc */
+  align-items: center;
+
+}
+body h3,p{
+  color: white;
+}
+.content_paypal a{
+  color: green;
+}

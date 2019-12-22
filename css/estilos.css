@@ -1,0 +1,183 @@
+/* variables */
+:root{
+--green-color:#7ACC2D;
+}
+
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-family: helvetica;
+}
+/* CABECERA */
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  padding: 10px;
+  color: white;
+  /* situa a los div en partes iguales */
+  justify-content: space-between;
+  /* SITUA AL MEDIO LOS ELEMENTOS */
+  align-items: center;
+}
+nav ul{
+  display: flex;
+}
+nav li{
+  padding-left: 20px;
+  list-style: none;
+}
+nav li a{
+    color: BLACK;
+    /* quita el subrayado a las palabras */
+    text-decoration: none;
+}
+/* el hover sirve para que cambie de color cuando le pases el mouse */
+nav li a:hover{
+  color: white;
+}
+
+/*----------------------- MAIN SECTION---------- */
+.main_section{
+  padding: 15%;
+  text-align: center;
+  background-color: white;
+}
+.products{
+  background-image: url("../images/curve.png");
+  height: 200px;
+  /* la imagen cubre el tamaño deñ div */
+  background-size: cover;
+  /* posicion de la imagen en el centro y un poco hacia arriba */
+  background-position: center top;
+  padding: 20px;
+  display: flex;
+  /* ALINEA A CONTENT AL MEDIO DE LA HOJA */
+  justify-content: center;
+}
+.product{
+  padding: 20px;
+  margin-top: -160px;
+
+}
+.product .content{
+  background-color: white;
+  padding: 15px;
+  /* ALINEA A CONTENT AL MEDIO DE LA HOJA */
+  align-items: center;
+  /* color del marco */
+  box-shadow: 0 0 1px #c1bcbc;
+
+}
+.products .product h1, p{
+  text-align: ;
+
+}
+.img_content{
+  text-align: center;
+}
+.main_button{
+  background-color: #7ACC2D;
+  width: 100%;
+  backface-visibility: hidden;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.main_button:hover{
+  background-color: #5e9e22;
+}
+
+/* SEGUNDA SECCION */
+
+.second_section{
+  display: flex;
+  justify-content: center;
+}
+.products2{
+  padding: 5%;
+}
+.product2{
+  padding: 10%;
+}
+.product2 .content2{
+  text-align: center;
+}
+.product2 .content2 .img_p2{
+  width: 180px;
+  padding: 15px;
+}
+/* tercera seccion */
+.menciones{
+  text-align: center;
+  padding: 20px;
+  font: Bold 30px/41px Open Sans;
+  border-top: #EEEEEE 2px solid;
+}
+.fotos_menciones{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding: 5px;
+}
+.cuadro{
+  padding: 5px;
+
+}
+.cuadro .content_mention{
+  box-shadow: 0px 0 4px 3px #e6e5e9
+}
+
+.fotos_menciones .cuadro p{
+  text-align:inherit;
+}
+.cuadro .img_rostro{
+  text-align: center;
+  font-size: 15px;
+  width: 400px;
+}
+/* ---------------VENTAS----------- */
+.modulo_pago{
+  background-color: white;
+  box-shadow: 0px 0 2px 1px #e6e5e6;
+  padding: 10px;
+}
+.modulo_pago .img_modPago{
+  width: 100%;
+}
+.modulo_pago .img_modPago .img_boxVenta{
+  margin-left: 60px;
+}
+.modulo_pago .data{
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.boton_pago{
+  text-align: center;
+  margin-top: 15px;
+}
+/* --------------FOOTER-------------- */
+.footer{
+  background-color: #313337;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.footer p{
+  color: white;
+  margin-right: 30px;
+}
+.footer .term_cond{
+  margin-left:10px;
+}
+.footer a p{
+  color: #7ACC2D;
+}
